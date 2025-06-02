@@ -1,0 +1,82 @@
+{
+  "books": [
+    {
+      "id": "82BF2F1C",
+      "title": "aku",
+      "author": "aku",
+      "isbn": "",
+      "category": "Fiksi",
+      "publisher": "aku",
+      "year": 2025,
+      "pages": 100,
+      "copies": 12,
+      "available": true,
+      "availableCopies": 12,
+      "addedDate": "2025-06-02T13:55:16.656Z",
+      "description": "aku ya aku",
+      "location": "1"
+    },
+    {
+      "id": "146572FB",
+      "title": "saya",
+      "author": "saya",
+      "isbn": "",
+      "category": "Fiksi",
+      "publisher": "saya",
+      "year": 2025,
+      "pages": 100,
+      "copies": 20,
+      "available": true,
+      "availableCopies": 20,
+      "addedDate": "2025-06-02T14:02:26.285Z",
+      "description": "saya adalah saya",
+      "location": "1"
+    },
+    {
+      "id": "0B7B01B8",
+      "title": "kamu",
+      "author": "kamu",
+      "isbn": "",
+      "category": "Sejarah",
+      "publisher": "kamu",
+      "year": 2025,
+      "pages": 100,
+      "copies": 20,
+      "available": true,
+      "availableCopies": 20,
+      "addedDate": "2025-06-02T14:03:11.642Z",
+      "description": "kamu adalah kamu",
+      "location": "1"
+    }
+  ],
+  "members": [],
+  "transactions": [],
+  "categories": [
+    "Fiksi",
+    "Non-Fiksi",
+    "Sains",
+    "Teknologi",
+    "Sejarah",
+    "Biografi",
+    "Pendidikan",
+    "Agama",
+    "Seni",
+    "Olahraga"
+  ],
+  "settings": {
+    "DATA_FILE": "library_data.json",
+    "BACKUP_DIR": "backups",
+    "MAX_BORROW_DAYS": 14,
+    "MAX_BOOKS_PER_USER": 5,
+    "FINE_PER_DAY": 2000,
+    "AUTO_SAVE": true,
+    "MAX_BACKUP_FILES": 10
+  },
+  "stats": {
+    "totalBooks": 3,
+    "totalMembers": 0,
+    "totalTransactions": 0,
+    "booksOnLoan": 0,
+    "overdueBooks": 0
+  }
+}

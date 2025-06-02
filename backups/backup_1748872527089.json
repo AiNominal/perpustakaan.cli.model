@@ -1,0 +1,33 @@
+{
+  "books": [],
+  "members": [],
+  "transactions": [],
+  "categories": [
+    "Fiksi",
+    "Non-Fiksi",
+    "Sains",
+    "Teknologi",
+    "Sejarah",
+    "Biografi",
+    "Pendidikan",
+    "Agama",
+    "Seni",
+    "Olahraga"
+  ],
+  "settings": {
+    "DATA_FILE": "library_data.json",
+    "BACKUP_DIR": "backups",
+    "MAX_BORROW_DAYS": 14,
+    "MAX_BOOKS_PER_USER": 5,
+    "FINE_PER_DAY": 2000,
+    "AUTO_SAVE": true,
+    "MAX_BACKUP_FILES": 10
+  },
+  "stats": {
+    "totalBooks": 0,
+    "totalMembers": 0,
+    "totalTransactions": 0,
+    "booksOnLoan": 0,
+    "overdueBooks": 0
+  }
+}
